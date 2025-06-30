@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box;
+  font-size: 67.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #111;
+}
+
+header {
+  display: flex;
+  padding: 3rem 12%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 3rem;
+  border-radius: 2rem;
+  background-color: #fdfbfb;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+  height: 8rem;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+nav a:hover {
+  color: #4f64bf;
+}
+
+main * {
+  padding: 0 4.5rem;
+}
+
+.container__title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding-top: 3.5rem;
+  margin-bottom: -0.7rem;
+}
+
+.container__text {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #707070;
+  margin-bottom: -0.5rem;
+}
+
+.container__text--red {
+  font-weight: 500;
+  color: #e74c3c;
+}
+
+.container__subtitle {
+  font-size: 2.0rem;
+  margin-top: 3rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.button-container__fiscal-button-label {
+  padding: 5px 15px 5px 40px;
+  border-radius: 6px;
+  color: #212C5E;
+  font-weight: 500;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button-container__fiscal-button-label:hover {
+  background-color: #f0f0f09f;
+}
+
+.button-container__fiscal-button {
+  margin-right: -3.2rem;
+  border-radius: 8px;
+  color: #ff7a00;
+  transition: 0.4s;
+}
+
+.button-container__fiscal-button:checked {
+  display: none;
+}
+
+.button-container__fiscal-button:checked + .button-container__fiscal-button-label {
+  background-color: #212C5E;
+  color: white;
+  padding: 5px 15px;
+}
+
+.cfdi-form {
+  padding: 0;
+}
+
+.cfdi-form__entry-container * {
+  padding: 0;
+}
+
+.cfdi-form__entry-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.cfdi-form__entry-container input {
+  font-style: italic;
+}
+
+.cfdi-form__input {
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fcfafa;
+  font-size: 1.5rem;
+  color: #707070;
+}
+
+.btn {
+  display: inline-block;
+  background: #212C5E;
+  color: white;
+  width: 20rem;
+  height: 6rem;
+  line-height: 6rem;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0;
+  margin-left: 4.5rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: #364ba6;
+  transform: translateY(-2px);
+}
